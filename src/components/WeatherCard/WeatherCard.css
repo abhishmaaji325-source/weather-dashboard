@@ -1,0 +1,74 @@
+.weather-card {
+  max-width: 360px;
+  margin: 15px auto;
+  padding: 18px;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  color: white;
+  border-radius: 24px;
+  text-align: center;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.location {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.weather-icon {
+  font-size: 70px;
+  margin: 4px 0;
+}
+
+/* Weather Icon Colors */
+.sunny {
+  color: #ffd43b;
+}
+
+.cloudy {
+  color: #f1f3f5;
+}
+
+.rainy {
+  color: #4dabf7;
+}
+
+.snowy {
+  color: #ffffff;
+}
+
+.stormy {
+  color: #ffd43b;
+}
+
+.foggy {
+  color: #dee2e6;
+}
+
+.weather-card h1 {
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.condition {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.feels-like {
+  margin-top: 12px;
+  padding-top: 10px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+
+  font-size: 14px;
+}

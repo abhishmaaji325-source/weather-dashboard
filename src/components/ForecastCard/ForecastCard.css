@@ -1,0 +1,42 @@
+.forecast-card {
+  min-width: 90px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+
+  transition: 0.3s ease;
+}
+
+.forecast-card:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 28px;
+  color: #ffd43b;
+  margin-bottom: 3px;
+}
+
+.temp {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px 0;
+}
+
+.type {
+  font-size: 11px;
+  opacity: 0.85;
+  margin: 0;
+  color: white;
+}

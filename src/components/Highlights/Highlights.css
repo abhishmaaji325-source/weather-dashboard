@@ -1,0 +1,99 @@
+.highlights {
+  margin-top: 15px;
+}
+
+.highlights-title {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  max-width: 500px;
+  margin: 0 auto;
+
+  gap: 10px;
+}
+
+.highlight-card {
+  color: white;
+
+  padding: 10px;
+
+  min-height: 90px;
+
+  border-radius: 18px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+
+  transition: 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-3px);
+}
+
+.highlight-icon {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.highlight-card p {
+  font-size: 13px;
+  margin: 2px 0;
+  opacity: 0.95;
+}
+
+.highlight-card h2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.humidity {
+  background: linear-gradient(
+    135deg,
+    #00b09b,
+    #96c93d
+  );
+}
+
+/* Wind */
+.wind {
+  background: linear-gradient(
+    135deg,
+    #a7b000,
+    #c96c3d
+  );
+}
+
+
+/* Pressure */
+.pressure {
+  background: linear-gradient(
+    135deg,
+    #a7b000,
+    #c96c3d
+  );
+}
+
+/* Feels Like */
+.feels {
+ background: linear-gradient(
+    135deg,
+    #00b09b,
+    #96c93d
+  );
+}
