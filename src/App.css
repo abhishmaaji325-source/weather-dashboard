@@ -11,13 +11,13 @@
   font-family: Arial, sans-serif;
 
   background: linear-gradient(
-  135deg,
-  #74ebd5,
-  #4facfe,
-  #a6c4ee
-);
-border-radius: 5px;
+    135deg,
+    #74ebd5,
+    #4facfe,
+    #a6c4ee
+  );
 
+  border-radius: 5px;
 }
 
 .main {
@@ -52,4 +52,23 @@ border-radius: 5px;
   margin-top: 25px;
   color: rgb(251, 248, 248);
   font-size: 18px;
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .main {
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 15px;
+    overflow-y: visible;
+  }
 }
